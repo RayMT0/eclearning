@@ -64,6 +64,7 @@
         <a href="#scroll_course" class="hero_scroll-btn d-flex flex-column align-items-center">Recommended Courses<i class="bi bi-arrow-down-short"></i></a>
       </div>
 
+      {{-- Content --}}
       <div class="container-md d-flex flex-column align-items-lg-start align-items-center mt-5" id="scroll_course">
         <h1 class="mb-5">Recommended Courses</h1>
         <div class="d-flex flex-lg-row flex-column flex-wrap justify-content-xxl-start justify-content-lg-between justify-content-center align-items-center column-gap-5 row-gap-5 mb-5">
@@ -109,5 +110,10 @@
           </div>
         </div>
       </div>
+
+      {{-- Footer --}}
+      <footer class="container">
+        
+      </footer>
 </body>
 </html>
