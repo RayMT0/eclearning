@@ -66,7 +66,7 @@
 
       {{-- Content --}}
       <div class="container-md d-flex flex-column align-items-lg-start align-items-center mt-5" id="scroll_course">
-        <h1 class="mb-5">Recommended Courses</h1>
+        <p class="fs-3 fw-medium mb-5">Recommended Courses</p>
         <div class="d-flex flex-lg-row flex-column flex-wrap justify-content-xxl-start justify-content-lg-between justify-content-center align-items-center column-gap-5 row-gap-5 mb-5">
           <div class="card" style="width: 25rem;">
             <img src="/assets/images/course_php.svg" alt="course-img" class="card-img-top">
@@ -110,6 +110,50 @@
           </div>
         </div>
       </div>
+
+      {{-- FAQ --}}
+      <div class="container-lg">
+        <p class="fs-3 text-lg-start text-center fw-medium">FAQ</p>
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                Accordion Item #1
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+              <div class="accordion-body">
+                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                Accordion Item #2
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                Accordion Item #3
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+              <div class="accordion-body">
+                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
       {{-- Footer --}}
       <footer class="container-lg d-flex flex-lg-row flex-column justify-content-between align-items-lg-start align-items-center text-lg-start text-center row-gap-4 p-5">

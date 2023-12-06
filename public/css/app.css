@@ -108,6 +108,13 @@ h1,h2,h3,h4,h5,p{
     color: var(--primary-color);
 }
 
+.accordion{
+    --bs-accordion-color: var(--text-color);
+    --bs-accordion-active-color: white;
+    --bs-accordion-active-bg: var(--primary-color);
+    --bs-accordion-btn-focus-box-shadow: none;
+}
+
 .brand{
     color: var(--primary-color);
 }
