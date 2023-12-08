@@ -113,7 +113,13 @@
 
       {{-- FAQ --}}
       <div class="container-lg">
-        <p class="fs-3 text-lg-start text-center fw-medium">FAQ</p>
+        <div class="d-flex flex-lg-row flex-column justify-content-lg-between justify-content-center align-items-center">
+          <div class="d-flex flex-column text-lg-start text-center">
+            <p class="fs-3 fw-medium mb-1">Frequently Asked Questions</p>
+            <p class="fs-6 fw-light">Contact us through eclearning@gmail.com if you still have further questions.</p>
+          </div>
+          <a href="" class="btn btn-primary h-fit w-fit mb-lg-0 mb-4">See All FAQ's</a>
+        </div>
         <div class="accordion" id="accordionPanelsStayOpenExample">
           <div class="accordion-item">
             <h2 class="accordion-header">
@@ -156,7 +162,7 @@
 
 
       {{-- Footer --}}
-      <footer class="container-lg d-flex flex-lg-row flex-column justify-content-between align-items-lg-start align-items-center text-lg-start text-center row-gap-4 p-5">
+      <footer class="container-lg d-flex flex-lg-row flex-column justify-content-between align-items-lg-start align-items-center text-lg-start text-center row-gap-4 p-5 mt-5">
         {{-- Footer Social Media --}}
         <div class="foot_media d-flex flex-column">
           <div class="brand d-flex flex-row mb-3 justify-content-lg-start justify-content-center">
