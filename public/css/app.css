@@ -12,6 +12,12 @@ h1,h2,h3,h4,h5,p{
     color: var(--text-color)
 }
 
+.text-primary{
+    color: var(--primary-color)!important;
+}
+
+/* Navbar CSS */
+
 .navbar-nav{
     --bs-nav-link-hover-color: var(--primary-color);
 }
@@ -19,6 +25,8 @@ h1,h2,h3,h4,h5,p{
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
     color: var(--primary-color);
 }
+
+/* Home CSS */
 
 .hero{
     position: relative;
@@ -119,6 +127,8 @@ h1,h2,h3,h4,h5,p{
     color: var(--primary-color);
 }
 
+/* Footer CSS */
+
 .foot_media a:hover{
     .bi{
         color: var(--primary-color);
@@ -130,4 +140,16 @@ h1,h2,h3,h4,h5,p{
 }
 .foot_content a:hover{
     color: var(--primary-color);
+}
+
+/* Signup CSS */
+.form{
+    position: relative;
+    min-height: auto;
+    margin-top: 15vh;
+}
+
+.form-content{
+    width: 25%;
+    min-width: fit-content;
 }

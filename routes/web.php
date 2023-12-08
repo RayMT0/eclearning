@@ -15,4 +15,8 @@ use App\Http\Controllers\PageController;
 */
 
 Route::redirect('/', '/home');
-Route::get('/home', [PageController::class, 'homePage']);
+Route::get('/home', [PageController::class, 'homePage'])->name('home');
+Route::get('/sign-up', [PageController::class, 'signUp'])->name('sign-up');
+Route::post('/add-account', [PageController::class, 'createAccount'])->name('addAccount');
+Route::get('/login', [PageController::class, 'login'])->name('login');
+Route::post('/login-account', [PageController::class, 'loginAccount'])->name('loginAccount');
