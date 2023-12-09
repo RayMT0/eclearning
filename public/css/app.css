@@ -2,6 +2,7 @@
     --primary-color: #29A354;
     --secondary-color: #167f3b;
     --text-color: #0C0531;
+    --nav-active-bg: #29a3541a;
 }
 
 html{
@@ -19,11 +20,14 @@ h1,h2,h3,h4,h5,p{
 /* Navbar CSS */
 
 .navbar-nav{
-    --bs-nav-link-hover-color: var(--primary-color);
+    --bs-nav-link-hover-color: var(--secondary-color);
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
-    color: var(--primary-color);
+    color: var(--secondary-color);
+    background-color: var(--nav-active-bg);
+    border-radius: 5px;
+    
 }
 
 /* Home CSS */

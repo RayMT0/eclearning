@@ -11,19 +11,19 @@
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
         <ul class="navbar-nav fw-medium">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/home">Home</a>
+            <a class="nav-link {{$path == 'home' ? 'active' : ''}}" aria-current="page" href="/home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Course</a>
+            <a class="nav-link {{$path == 'course' ? 'active' : ''}}" href="/course">Course</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Monitors</a>
+            <a class="nav-link {{$path == 'monitors' ? 'active' : ''}}" href="#">Monitors</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Testimonials</a>
+            <a class="nav-link {{$path == 'testimonials' ? 'active' : ''}}" href="#">Testimonials</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Blogs</a>
+            <a class="nav-link {{$path == 'blogs' ? 'active' : ''}}" href="#">Blogs</a>
           </li>
         </ul>
       </div>

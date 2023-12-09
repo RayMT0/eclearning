@@ -12,7 +12,7 @@
       <div class="text-dark">
         <h1 class="fw-bold mb-4">Start <span class="h1_gradient">learning</span> new programming skill from our complete courses</h1>
         <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ut laborum veritatis ipsum iure, atque repellat quis qui maiores possimus distinctio rem animi nobis quos porro consectetur obcaecati assumenda. Quia.</p>
-        <a href="#" class="mt-2 btn btn-lg btn-primary rounded" role="button">Explore Course</a>
+        <a href="/course" class="mt-2 btn btn-lg btn-primary rounded" role="button">Explore Course</a>
       </div>
     </div>
   </div>
@@ -21,54 +21,49 @@
 </div>
 
 {{-- Content --}}
+{{-- d-flex flex-lg-row flex-column flex-wrap justify-content-xxl-start justify-content-lg-between justify-content-center align-items-center column-gap-5 row-gap-5 mb-5 --}}
 <div class="container-md d-flex flex-column align-items-lg-start align-items-center mt-5" id="scroll_course">
   <p class="fs-3 fw-medium mb-5">Recommended Courses</p>
-  <div class="d-flex flex-lg-row flex-column flex-wrap justify-content-xxl-start justify-content-lg-between justify-content-center align-items-center column-gap-5 row-gap-5 mb-5">
-    <div class="card" style="width: 25rem;">
-      <img src="/assets/images/course_php.svg" alt="course-img" class="card-img-top">
-      <div class="card-body">
-        <p class="card-text"><i class="bi bi-play-circle"></i>Enrolled count</p>
-        <h4 class="card-title">Title</h4>
-        <a href="" class="btn btn-primary ps-4 pe-4"><i class="bi bi-arrow-right"></i></a>
+  <div class="row row-cols-1 row-cols-lg-3 g-4">
+    <div class="col">
+      <div class="card">
+        <img src="/assets/images/html_css.svg" alt="course-img" class="card-img-top object-fit-contain h-50" style="min-height: 300px">
+        <div class="card-body">
+          <p class="card-text"><i class="bi bi-play-circle"></i>0 Enrolled</p>
+          <h5 class="card-title">Website Design</h5>
+          <p class="card-text">Learn how to design a website while utilizing HTML5 and CSS3 as your tools.</p>
+          <a href="" class="btn btn-primary ps-4 pe-4"><i class="bi bi-arrow-right"></i></a>
+        </div>
       </div>
     </div>
-    <div class="card" style="width: 25rem;">
-      <img src="/assets/images/course_php.svg" alt="course-img" class="card-img-top">
-      <div class="card-body">
-        <p class="card-text"><i class="bi bi-play-circle"></i>Enrolled count</p>
-        <h4 class="card-title">Title</h4>
-        <a href="" class="btn btn-primary ps-4 pe-4"><i class="bi bi-arrow-right"></i></a>
+    <div class="col">
+      <div class="card">
+        <img src="/assets/images/logo_javascript.svg" alt="course-img" class="card-img-top object-fit-contain" style="max-height: 300px;">
+        <div class="card-body">
+          <p class="card-text"><i class="bi bi-play-circle"></i>0 Enrolled</p>
+          <h5 class="card-title">Javascript</h5>
+          <p class="card-text">Learn javascript basic syntaxes, usefull features, libraries, and popular uses.</p>
+
+          <a href="" class="btn btn-primary ps-4 pe-4"><i class="bi bi-arrow-right"></i></a>
+        </div>
       </div>
     </div>
-    <div class="card" style="width: 25rem;">
-      <img src="/assets/images/course_php.svg" alt="course-img" class="card-img-top">
-      <div class="card-body">
-        <p class="card-text"><i class="bi bi-play-circle"></i>Enrolled count</p>
-        <h4 class="card-title">Title</h4>
-        <a href="" class="btn btn-primary ps-4 pe-4"><i class="bi bi-arrow-right"></i></a>
-      </div>
-    </div>
-    <div class="card" style="width: 25rem;">
-      <img src="/assets/images/course_php.svg" alt="course-img" class="card-img-top">
-      <div class="card-body">
-        <p class="card-text"><i class="bi bi-play-circle"></i>Enrolled count</p>
-        <h4 class="card-title">Title</h4>
-        <a href="" class="btn btn-primary ps-4 pe-4"><i class="bi bi-arrow-right"></i></a>
-      </div>
-    </div>
-    <div class="card" style="width: 25rem;">
-      <img src="/assets/images/course_php.svg" alt="course-img" class="card-img-top">
-      <div class="card-body">
-        <p class="card-text"><i class="bi bi-play-circle"></i>Enrolled count</p>
-        <h4 class="card-title">Title</h4>
-        <a href="" class="btn btn-primary ps-4 pe-4"><i class="bi bi-arrow-right"></i></a>
+    <div class="col">
+      <div class="card">
+        <img src="/assets/images/logo_cplus.svg" alt="course-img" class="card-img-top object-fit-contain h-50" style="max-height: 300px">
+        <div class="card-body">
+          <p class="card-text"><i class="bi bi-play-circle"></i>0 Enrolled</p>
+          <h5 class="card-title">C++</h5>
+          <p class="card-text">Learn C++ basic syntaxes, optimal use case in a project, and also structures.</p>
+          <a href="" class="btn btn-primary ps-4 pe-4"><i class="bi bi-arrow-right"></i></a>
+        </div>
       </div>
     </div>
   </div>
 </div>
 
 {{-- FAQ --}}
-<div class="container-lg">
+<div class="container-lg mt-5">
   <div class="d-flex flex-lg-row flex-column justify-content-lg-between justify-content-center align-items-center">
     <div class="d-flex flex-column text-lg-start text-center">
       <p class="fs-3 fw-medium mb-1">Frequently Asked Questions</p>

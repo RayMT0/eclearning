@@ -4,20 +4,29 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Route;
 use App\Models\Account;
 
 class PageController extends Controller
 {
     public function homePage() {
-        return view('home');
+        $path = Route::currentRouteName();
+        return view('home', ["path" => $path]);
+    }
+
+    public function coursePage() {
+        $path = Route::currentRouteName();
+        return view('course', ["path" => $path]);
     }
 
     public function signUp() {
-        return view('signup');
+        $path = Route::currentRouteName();
+        return view('signup', ["path" => $path]);
     }
 
     public function login() {
-        return view('login');
+        $path = Route::currentRouteName();
+        return view('login', ["path" => $path]);
     }
 
     public function createAccount(Request $request){
