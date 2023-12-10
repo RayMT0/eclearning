@@ -23,12 +23,35 @@ h1,h2,h3,h4,h5,p{
     --bs-nav-link-hover-color: var(--secondary-color);
 }
 
+.nav_title{
+    visibility: hidden;
+    position: absolute;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+
 .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
     color: var(--secondary-color);
-    background-color: var(--nav-active-bg);
-    border-radius: 5px;
-    
+    background-color: none;
 }
+
+@media (min-width: 992px){
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show{
+        background-color: var(--nav-active-bg);
+        border-radius: 5px;    
+    }
+    .nav_title{
+        visibility: visible;
+        position: relative;
+    }
+}
+
 
 /* Home CSS */
 
@@ -150,10 +173,87 @@ h1,h2,h3,h4,h5,p{
 .form{
     position: relative;
     min-height: auto;
-    margin-top: 15vh;
+    margin-top: 6rem;
 }
 
 .form-content{
     width: 25%;
     min-width: fit-content;
+}
+
+/* Courses */
+.screen_base{
+    margin-top: 6rem;
+    --bs-gutter-x: 3rem;
+}
+
+.sidebar{
+    grid-area: sidebar;
+}
+
+.btn-close{
+    --bs-btn-close-focus-shadow: none;
+    color: var(--text-color);
+}
+
+
+.course_main{
+    grid-area: main;
+}
+
+main .bi{
+    color: var(--primary-color);
+}
+
+.course_main strong{
+    color: var(--primary-color);
+}
+
+.c_link{
+    padding: 0.1875rem 0.5rem;
+    margin-top: 0.125rem;
+    margin-left: 1.125rem;
+    color: var(--text-color);
+}
+
+.c_link:hover{
+    background-color: var(--nav-active-bg);
+}
+
+.c_content_title{
+    font-size: calc(1.425rem + 2.1vw);
+}
+
+.c_selected{
+    background-color: var(--nav-active-bg);
+}
+
+
+@media (min-width: 992px) {
+    .screen_base{
+        display: grid;
+        grid-template-areas: "sidebar main";
+        grid-template-columns: 1fr 5fr;
+        gap: 1.5rem;
+    }
+
+    .sidebar{
+        position: sticky;
+        top: 5rem;
+        display: block !important;
+        height: calc(100vh - 6rem);
+        overflow-y: auto;
+        margin-left: -0.25rem;
+    }
+
+    .c_content_title{
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .screen_base{
+        max-width: 760px;
+        margin-inline: auto;
+    }
 }

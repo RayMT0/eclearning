@@ -14,9 +14,9 @@ class PageController extends Controller
         return view('home', ["path" => $path]);
     }
 
-    public function coursePage() {
+    public function coursePage($course='', $mat='') {
         $path = Route::currentRouteName();
-        return view('course', ["path" => $path]);
+        return view('course', ["path" => $path, "course" => $course, "mat" => $mat]);
     }
 
     public function signUp() {

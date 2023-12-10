@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/css/app.css">
     <title>@yield('title')</title>
 </head>
-<body>
+<body data-bs-spy="scroll">
     @include('component.header')
     @yield('content')
     @include('component.footer')

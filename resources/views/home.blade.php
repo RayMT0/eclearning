@@ -29,7 +29,7 @@
       <div class="card">
         <img src="/assets/images/html_css.svg" alt="course-img" class="card-img-top object-fit-contain h-50" style="min-height: 300px">
         <div class="card-body">
-          <p class="card-text"><i class="bi bi-play-circle"></i>0 Enrolled</p>
+          <p class="card-text"><i class="bi bi-play-circle"></i>0 Views</p>
           <h5 class="card-title">Website Design</h5>
           <p class="card-text">Learn how to design a website while utilizing HTML5 and CSS3 as your tools.</p>
           <a href="" class="btn btn-primary ps-4 pe-4"><i class="bi bi-arrow-right"></i></a>
@@ -40,7 +40,7 @@
       <div class="card">
         <img src="/assets/images/logo_javascript.svg" alt="course-img" class="card-img-top object-fit-contain" style="max-height: 300px;">
         <div class="card-body">
-          <p class="card-text"><i class="bi bi-play-circle"></i>0 Enrolled</p>
+          <p class="card-text"><i class="bi bi-play-circle"></i>0 Views</p>
           <h5 class="card-title">Javascript</h5>
           <p class="card-text">Learn javascript basic syntaxes, usefull features, libraries, and popular uses.</p>
 
@@ -52,10 +52,10 @@
       <div class="card">
         <img src="/assets/images/logo_cplus.svg" alt="course-img" class="card-img-top object-fit-contain h-50" style="max-height: 300px">
         <div class="card-body">
-          <p class="card-text"><i class="bi bi-play-circle"></i>0 Enrolled</p>
+          <p class="card-text"><i class="bi bi-play-circle"></i>0 Views</p>
           <h5 class="card-title">C++</h5>
           <p class="card-text">Learn C++ basic syntaxes, optimal use case in a project, and also structures.</p>
-          <a href="" class="btn btn-primary ps-4 pe-4"><i class="bi bi-arrow-right"></i></a>
+          <a href="/course/cpp/overview" class="btn btn-primary ps-4 pe-4"><i class="bi bi-arrow-right"></i></a>
         </div>
       </div>
     </div>

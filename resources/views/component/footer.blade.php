@@ -19,7 +19,7 @@
     <div class="foot_content d-flex flex-column">
       <p class="fs-4 fw-semibold">Links</p>
       <a href="/home" class="text-decoration-none mb-1">Home</a>
-      <a href="" class="text-decoration-none mb-1">Help center</a>
+      <a href="/course" class="text-decoration-none mb-1">Course</a>
       <a href="" class="text-decoration-none mb-1">Service</a>
     </div>
 
