@@ -16,7 +16,7 @@
                                 <a href="/course/cpp/overview" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'overview' ? 'c_selected' : ''}}">Overview</a>
                             </li>
                             <li>
-                                <a href="/course/cpp/setup-syntax" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'setup-syntax' ? 'c_selected' : ''}}">Setup & Syntax</a>
+                                <a href="/course/cpp/setup" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'setup' ? 'c_selected' : ''}}">Setup</a>
                             </li>
                             <li>
                                 <a href="/course/cpp/io-types" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'io-types' ? 'c_selected' : ''}}">I/O & Data Types</a>
@@ -25,28 +25,28 @@
                                 <a href="/course/cpp/operators" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'operators' ? 'c_selected' : ''}}">Operators</a>
                             </li>
                             <li>
-                                <a href="/course/cpp" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'condition' ? 'c_selected' : ''}}">Conditions & Switch</a>
+                                <a href="/course/cpp/condition" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'condition' ? 'c_selected' : ''}}">Conditions</a>
                             </li>
                             <li>
-                                <a href="/course/cpp" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'loop' ? 'c_selected' : ''}}">Looping</a>
+                                <a href="/course/cpp/loop" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'loop' ? 'c_selected' : ''}}">Looping</a>
                             </li>
                             <li>
-                                <a href="/course/cpp" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'break-continue' ? 'c_selected' : ''}}">Break/Continue</a>
+                                <a href="/course/cpp/break-continue" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'break-continue' ? 'c_selected' : ''}}">Break/Continue</a>
                             </li>
                             <li>
-                                <a href="/course/cpp" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'arrays' ? 'c_selected' : ''}}">Arrays</a>
+                                <a href="/course/cpp/array" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'array' ? 'c_selected' : ''}}">Array</a>
                             </li>
                             <li>
-                                <a href="/course/cpp" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'struct' ? 'c_selected' : ''}}">Struct</a>
+                                <a href="/course/cpp/struct" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'struct' ? 'c_selected' : ''}}">Struct</a>
                             </li>
                             <li>
-                                <a href="/course/cpp" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'pointers' ? 'c_selected' : ''}}">Pointers</a>
+                                <a href="/course/cpp/pointers" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'pointers' ? 'c_selected' : ''}}">Pointers</a>
                             </li>
                             <li>
-                                <a href="/course/cpp" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'function' ? 'c_selected' : ''}}">Function</a>
+                                <a href="/course/cpp/function" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'function' ? 'c_selected' : ''}}">Function</a>
                             </li>
                             <li>
-                                <a href="/course/cpp" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'oop' ? 'c_selected' : ''}}">OOP</a>
+                                <a href="/course/cpp/oop" class="c_link text-decoration-none d-inline-block rounded {{$mat === 'oop' ? 'c_selected' : ''}}">OOP</a>
                             </li>
                         </ul>
                     </li>

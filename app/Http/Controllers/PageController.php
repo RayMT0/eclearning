@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Route;
 use App\Models\Account;
+use Illuminate\Support\Str;
 
 class PageController extends Controller
 {

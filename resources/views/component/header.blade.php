@@ -1,5 +1,5 @@
 {{-- Navbar --}}
-<nav class="navbar navbar-expand-lg navbar-light bg-light position-absolute start-0 top-0 end-0 z-2">
+<nav class="navbar navbar-expand-lg navbar-light bg-light position-fixed start-0 top-0 end-0 z-2">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar" aria-label="Toggle course navigation">
         <i class="bi bi-list fs-3" style="color: #0C0531"></i>
