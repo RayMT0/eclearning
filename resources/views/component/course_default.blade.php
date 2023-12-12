@@ -35,7 +35,9 @@
           <p class="card-text"><i class="bi bi-play-circle"></i>0 Views</p>
           <h5 class="card-title">Javascript</h5>
           <p class="card-text">Learn javascript basic syntaxes, usefull features, libraries, and popular uses.</p>
-          <a href="/course" class="btn btn-primary ps-4 pe-4"><i class="bi bi-arrow-right text-white"></i></a>
+          <p class="mb-1">Course by : Vincent</p>
+          <p>Last updated : 11/12/2023</p>
+          <a href="/course/javascript/overview" class="btn btn-primary ps-4 pe-4"><i class="bi bi-arrow-right text-white"></i></a>
         </div>
       </div>
     </div>

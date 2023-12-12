@@ -44,7 +44,7 @@
           <h5 class="card-title">Javascript</h5>
           <p class="card-text">Learn javascript basic syntaxes, usefull features, libraries, and popular uses.</p>
 
-          <a href="" class="btn btn-primary ps-4 pe-4"><i class="bi bi-arrow-right"></i></a>
+          <a href="/course/javascript/overview" class="btn btn-primary ps-4 pe-4"><i class="bi bi-arrow-right"></i></a>
         </div>
       </div>
     </div>

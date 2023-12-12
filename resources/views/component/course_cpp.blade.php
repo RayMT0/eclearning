@@ -4,7 +4,7 @@
     <h1 class="c_content_title1">C++ Overview</h1>
     <p class="lead">C++ is a programming language that is an extension of C programming language with the same syntax. The difference between C++ and C is that C++ is more used than C and also supports Object-Oriented Programming (OOP) which are classes and objects while C doesn't.</p>
     <h1 class="fs-4 mt-5 mb-3">Course Outline</h1>
-    <div class="row g-3">
+    <div class="row g-4">
         <div class="col-xl-3 col-md-6">
             <a href="/course/cpp/setup" class="d-block text-decoration-none">
                 <strong class="d-block h5 mb-0">Setup</strong>
@@ -129,12 +129,12 @@
         <p class="fs-4 mt-5 mb-3">Arithmetic Operators</p>
         <p>Arithmetic operators consists of :</p>
         <li class="mb-1">Addition (+) <i class="bi bi-arrow-right-short"></i> Adds 2 values together : <code>x + y</code></li>
-        <li class="mb-1">Subtraction (-) <i class="bi bi-arrow-right-short"></i> Adds 2 values together : <code>x - y</code></li>
-        <li class="mb-1">Multiplication (*) <i class="bi bi-arrow-right-short"></i> Adds 2 values together : <code>x * y</code></li>
-        <li class="mb-1">Division (/) <i class="bi bi-arrow-right-short"></i> Adds 2 values together : <code>x / y</code></li>
-        <li class="mb-1">Module (%) <i class="bi bi-arrow-right-short"></i> Adds 2 values together : <code>x & y</code></li>
-        <li class="mb-1">Increment (++) <i class="bi bi-arrow-right-short"></i> Adds 2 values together : <code>x++</code></li>
-        <li class="mb-1">Decrement (--) <i class="bi bi-arrow-right-short"></i> Adds 2 values together : <code>x--</code></li>
+        <li class="mb-1">Subtraction (-) <i class="bi bi-arrow-right-short"></i> Subtracts one values to another : <code>x - y</code></li>
+        <li class="mb-1">Multiplication (*) <i class="bi bi-arrow-right-short"></i> Multiplies 2 values together : <code>x * y</code></li>
+        <li class="mb-1">Division (/) <i class="bi bi-arrow-right-short"></i> Divides one value to another and return the value of the division : <code>x / y</code></li>
+        <li class="mb-1">Module (%) <i class="bi bi-arrow-right-short"></i> Divides one value to another and return the remainder value of the division : <code>x % y</code></li>
+        <li class="mb-1">Increment (++) <i class="bi bi-arrow-right-short"></i> Increase the value of a variable by 1 : <code>x++</code></li>
+        <li class="mb-1">Decrement (--) <i class="bi bi-arrow-right-short"></i> Decrease the value of a variable by 1 : <code>x--</code></li>
 
         <p class="mt-2">Example :</p>
         <img src="/assets/images/cpp_op-1.svg" alt="" class="w-100">
