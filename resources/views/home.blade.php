@@ -11,7 +11,7 @@
     <div class="hero_content_width d-flex h-100 align-items-center">
       <div class="text-dark">
         <h1 class="fw-bold mb-4">Start <span class="h1_gradient">learning</span> new programming skill from our complete courses</h1>
-        <p class="lead mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non ut laborum veritatis ipsum iure, atque repellat quis qui maiores possimus distinctio rem animi nobis quos porro consectetur obcaecati assumenda. Quia.</p>
+        <p class="lead mb-4">Take our free courses that contains tutorial in text explanations and pictures. We guarantee you will at least get a good basic understanding of the course you learned from us.</p>
         <a href="/course" class="mt-2 btn btn-lg btn-primary rounded" role="button">Explore Course</a>
       </div>
     </div>
