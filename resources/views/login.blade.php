@@ -2,7 +2,7 @@
 @section('title','ECLearning Login')
 @section('content')
 <div class="form">
-    <div class="container-fluid d-flex flex-column align-items-center justify-content-center m-2">
+    <div class="container-fluid d-flex flex-column align-items-center justify-content-center">
         {{-- Sign Up Form --}}
         <form class="form-content d-flex flex-column justify-content-start h-100" action="{{route('loginAccount')}}" method="POST" enctype="multipart/form-data">
             @csrf
