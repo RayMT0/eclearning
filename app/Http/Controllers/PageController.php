@@ -27,6 +27,12 @@ class PageController extends Controller
         return view('course', ["path" => $path, "course" => $course, "mat" => $mat]);
     }
 
+    public function guestMode(){
+        Session::put('auth','user');
+        Session::put('user', 'Guest');
+        return redirect('/course');
+    }
+
     public function signUp() {
         $path = Route::currentRouteName();
         return view('signup', ["path" => $path]);
@@ -39,6 +45,7 @@ class PageController extends Controller
 
     public function logout() {
         Session::flush();
+        Session::put('auth','guest');
         return redirect('/login');
     }
 
